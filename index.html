@@ -1,0 +1,1469 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nordic Teak Bespoke Furniture | Handcrafted Wooden Furniture Designed for Modern Living</title>
+  <meta name="description" content="Handcrafted wooden furniture designed for modern living. Scandinavian minimalism, bespoke teak & hardwood craftsmanship, interactive room planner, material swatches, and custom quotes." />
+  <meta name="keywords" content="Nordic furniture, bespoke teak, Scandinavian design, minimalist wooden furniture, luxury timber, custom dining table, handcrafted credenza" />
+  <meta name="author" content="Mohammad Ashif - Ashif Web Studio" />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://ashif-web-studio.vercel.app/" />
+  <meta property="og:title" content="Nordic Teak Bespoke Furniture | Handcrafted Wooden Furniture" />
+  <meta property="og:description" content="Handcrafted wooden furniture designed for modern living. Scandinavian minimalism meets master timber craftsmanship." />
+  <meta property="og:image" content="https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Nordic Teak Bespoke Furniture" />
+  <meta name="twitter:description" content="Handcrafted wooden furniture designed for modern living. Scandinavian minimalism meets master timber craftsmanship." />
+  <meta name="twitter:image" content="https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1200&q=80" />
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🪵</text></svg>">
+
+  <!-- Pure Vanilla Stylesheet -->
+  <link rel="stylesheet" href="./style.css" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FurnitureStore",
+    "name": "Nordic Teak Bespoke Furniture",
+    "description": "Handcrafted wooden furniture designed for modern living.",
+    "url": "https://ashif-web-studio.vercel.app/",
+    "telephone": "+4533128840",
+    "priceRange": "$$$$",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Strandvejen 42",
+      "addressLocality": "Copenhagen",
+      "addressCountry": "DK"
+    },
+    "founder": {
+      "@type": "Person",
+      "name": "Mohammad Ashif"
+    }
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Preloader Screen -->
+  <div id="preloader">
+    <div class="preloader-spinner"></div>
+    <div class="preloader-logo">NORDIC TEAK</div>
+  </div>
+
+  <!-- Sticky Header Navigation -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand-logo" aria-label="Nordic Teak Home">
+        <div class="logo-symbol">NT</div>
+        <div class="brand-title">
+          <span class="brand-name">NORDIC TEAK</span>
+          <span class="brand-tagline">Bespoke Living</span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" aria-label="Main Navigation">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#collections" class="nav-link">Collections</a>
+        <a href="#products" class="nav-link">Products</a>
+        <a href="#materials" class="nav-link">Materials</a>
+        <a href="#room-planner" class="nav-link">Room Planner</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#testimonials" class="nav-link">Testimonials</a>
+        <a href="#faq" class="nav-link">FAQ</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <!-- Header Actions -->
+      <div class="header-actions">
+        <!-- Theme Toggle -->
+        <button class="theme-toggle-btn" aria-label="Toggle Dark Mode" title="Toggle Dark/Light Mode">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+
+        <!-- Wishlist Indicator -->
+        <a href="#products" class="wishlist-pill" title="View Wishlist" aria-label="Wishlist">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg>
+          <span class="wishlist-badge">0</span>
+        </a>
+
+        <!-- Get Quote Primary Button -->
+        <a href="#quote" class="btn btn-primary btn-sm">Get Quote</a>
+
+        <!-- Mobile Drawer Toggle -->
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Open Mobile Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer Menu -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <div class="mobile-drawer-content">
+      <div>
+        <div class="mobile-drawer-header">
+          <div class="brand-logo">
+            <div class="logo-symbol">NT</div>
+            <div class="brand-title">
+              <span class="brand-name">NORDIC TEAK</span>
+            </div>
+          </div>
+          <button class="drawer-close" id="drawerClose" aria-label="Close Mobile Menu">✕</button>
+        </div>
+
+        <nav class="mobile-nav-links">
+          <a href="#home" class="mobile-nav-link">Home</a>
+          <a href="#collections" class="mobile-nav-link">Collections</a>
+          <a href="#products" class="mobile-nav-link">Products</a>
+          <a href="#materials" class="mobile-nav-link">Materials</a>
+          <a href="#room-planner" class="mobile-nav-link">Room Planner</a>
+          <a href="#gallery" class="mobile-nav-link">Gallery</a>
+          <a href="#about" class="mobile-nav-link">About Atelier</a>
+          <a href="#testimonials" class="mobile-nav-link">Testimonials</a>
+          <a href="#faq" class="mobile-nav-link">FAQ</a>
+          <a href="#contact" class="mobile-nav-link">Contact</a>
+        </nav>
+      </div>
+
+      <div style="margin-top: 30px;">
+        <a href="#quote" class="btn btn-primary" style="width: 100%; margin-bottom: 12px;">Request Custom Quote</a>
+        <div style="display: flex; justify-content: space-between; align-items: center; padding-top: 16px; border-top: 1px solid var(--border-light);">
+          <span style="font-size: 0.85rem; color: var(--text-muted);">Theme Appearance</span>
+          <button class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <!-- Floating Wood Grain Organic Glows -->
+    <div class="hero-blob hero-blob-1"></div>
+    <div class="hero-blob hero-blob-2"></div>
+
+    <div class="container hero-grid">
+      <div class="hero-content reveal">
+        <div class="hero-badge-tag">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+          <span>100% Certified Sustainable Solid Timber</span>
+        </div>
+        <h1 class="hero-headline">
+          Crafted by Nature. <span>Designed for Life.</span>
+        </h1>
+        <p class="hero-subheading">
+          Premium handcrafted teak furniture that combines timeless Scandinavian craftsmanship with contemporary, uncluttered living. Tailored millimetre-by-millimetre to your personal sanctuary.
+        </p>
+
+        <div class="hero-cta-group">
+          <a href="#collections" class="btn btn-primary btn-lg">Explore Collection</a>
+          <a href="#quote" class="btn btn-secondary btn-lg">Request Quote</a>
+          <button class="btn btn-outline btn-lg" id="viewCatalogBtn">View Catalog</button>
+        </div>
+
+        <div class="hero-stats-row">
+          <div class="hero-stat-item">
+            <h3>40+</h3>
+            <p>Years of Tree Maturity</p>
+          </div>
+          <div class="hero-stat-item">
+            <h3>100%</h3>
+            <p>Solid Hardwood</p>
+          </div>
+          <div class="hero-stat-item">
+            <h3>Lifetime</h3>
+            <p>Joinery Warranty</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hero Visual Showcase with Floating Badges -->
+      <div class="hero-visual reveal reveal-delay-1">
+        <div class="hero-image-card">
+          <img src="https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=1200&q=80" alt="Nordic Teak Bespoke Dining Table & Living Room" />
+        </div>
+
+        <!-- Floating Badge Top Left -->
+        <div class="floating-glass-badge badge-top-left">
+          <div class="badge-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+          </div>
+          <div>
+            <div class="badge-text-title">Grade-A Golden Teak</div>
+            <div class="badge-text-sub">Naturally High Silicic Oil</div>
+          </div>
+        </div>
+
+        <!-- Floating Badge Bottom Right -->
+        <div class="floating-glass-badge badge-bottom-right">
+          <div class="badge-icon-box">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <div>
+            <div class="badge-text-title">Master Woodworkers</div>
+            <div class="badge-text-sub">Traditional Mortise & Tenon</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Collections Section -->
+  <section id="collections" class="section-py">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Architectural Series</span>
+        <h2 class="section-title">Featured Collections</h2>
+        <p class="section-subtitle">
+          Six curated furniture chapters conceived for purposeful, calm interiors. Each piece honors the natural topography of ancient timber.
+        </p>
+      </div>
+
+      <div class="collections-grid">
+        <!-- Collection 1: Living Room -->
+        <div class="collection-card reveal">
+          <div class="collection-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=800&q=80" alt="Living Room Collection" loading="lazy" />
+            <span class="collection-badge">Living Room</span>
+          </div>
+          <div class="collection-body">
+            <h3 class="collection-name">The Sanctuary Living Series</h3>
+            <p class="collection-desc">Low-slung solid teak sofa frames, organic coffee tables, and slatted media credenzas designed for serene open-concept living.</p>
+            <a href="#products" class="collection-explore-btn" data-cat="living">
+              Explore Collection
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Collection 2: Bedroom -->
+        <div class="collection-card reveal reveal-delay-1">
+          <div class="collection-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=800&q=80" alt="Bedroom Collection" loading="lazy" />
+            <span class="collection-badge">Bedroom</span>
+          </div>
+          <div class="collection-body">
+            <h3 class="collection-name">Kobenhavn Sleep Chamber</h3>
+            <p class="collection-desc">Japanese-Scandinavian platform beds, floating nightstands, and linen armoires finished in non-toxic organic botanical waxes.</p>
+            <a href="#products" class="collection-explore-btn" data-cat="bedroom">
+              Explore Collection
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Collection 3: Dining -->
+        <div class="collection-card reveal reveal-delay-2">
+          <div class="collection-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1615066390971-03e4e1c36ddf?auto=format&fit=crop&w=800&q=80" alt="Dining Room Collection" loading="lazy" />
+            <span class="collection-badge">Dining</span>
+          </div>
+          <div class="collection-body">
+            <h3 class="collection-name">Nordic Banquet Suite</h3>
+            <p class="collection-desc">Live-edge communal dining tables up to 3.8 metres, wishbone seating with natural paper cord, and sculpted sideboards.</p>
+            <a href="#products" class="collection-explore-btn" data-cat="dining">
+              Explore Collection
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Collection 4: Office -->
+        <div class="collection-card reveal">
+          <div class="collection-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=800&q=80" alt="Office Collection" loading="lazy" />
+            <span class="collection-badge">Executive Office</span>
+          </div>
+          <div class="collection-body">
+            <h3 class="collection-name">Aarhus Atelier Workspace</h3>
+            <p class="collection-desc">Executive solid timber writing desks with hidden cable passages, wireless charge integration, and bespoke architectural shelving.</p>
+            <a href="#products" class="collection-explore-btn" data-cat="office">
+              Explore Collection
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Collection 5: Outdoor -->
+        <div class="collection-card reveal reveal-delay-1">
+          <div class="collection-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&fit=crop&w=800&q=80" alt="Outdoor Collection" loading="lazy" />
+            <span class="collection-badge">Terrace & Garden</span>
+          </div>
+          <div class="collection-body">
+            <h3 class="collection-name">Fjord Coastal Outdoor</h3>
+            <p class="collection-desc">Marine Grade-A teak patio dining tables and deep-seated sun loungers engineered to naturally withstand salt air, rain, and sun.</p>
+            <a href="#products" class="collection-explore-btn" data-cat="outdoor">
+              Explore Collection
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Collection 6: Luxury Series -->
+        <div class="collection-card reveal reveal-delay-2">
+          <div class="collection-image-wrapper">
+            <img src="https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=800&q=80" alt="Luxury Mastercraft Series" loading="lazy" />
+            <span class="collection-badge">Mastercraft Limited</span>
+          </div>
+          <div class="collection-body">
+            <h3 class="collection-name">Heritage Century Editions</h3>
+            <p class="collection-desc">Numbered mastercraft statement creations utilizing century-old reclaimed teak pillars and brass butterfly inlays.</p>
+            <a href="#products" class="collection-explore-btn" data-cat="luxury">
+              Explore Collection
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product Showcase Section -->
+  <section id="products" class="section-py" style="background: var(--bg-surface-subtle);">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Tailored Catalog</span>
+        <h2 class="section-title">Bespoke Product Showcase</h2>
+        <p class="section-subtitle">
+          Explore signature handcrafted designs. Each piece is made to order according to your exact space dimensions and timber finish preferences.
+        </p>
+      </div>
+
+      <!-- Controls: Search, Sort & Category Tabs -->
+      <div class="product-controls reveal">
+        <div class="product-search-row">
+          <div class="search-input-box">
+            <span class="search-icon-inside">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            </span>
+            <input type="text" id="productSearch" placeholder="Search by model, wood, finish, or room..." aria-label="Search Furniture" />
+          </div>
+
+          <div class="sort-select-box">
+            <label for="productSort">Sort By:</label>
+            <select id="productSort">
+              <option value="featured">Featured Curations</option>
+              <option value="price-low">Price: Low to High</option>
+              <option value="price-high">Price: High to Low</option>
+              <option value="name">Alphabetical</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-tabs">
+          <button class="filter-tab active" data-cat="all">All Pieces</button>
+          <button class="filter-tab" data-cat="living">Living Room</button>
+          <button class="filter-tab" data-cat="bedroom">Bedroom</button>
+          <button class="filter-tab" data-cat="dining">Dining</button>
+          <button class="filter-tab" data-cat="office">Executive Office</button>
+          <button class="filter-tab" data-cat="outdoor">Outdoor Terrace</button>
+          <button class="filter-tab" data-cat="luxury">Luxury Series</button>
+        </div>
+      </div>
+
+      <!-- Dynamic Products Grid rendered by script.js -->
+      <div class="products-grid" id="productsGrid">
+        <!-- Rendered via JavaScript -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Room Dimension Guide (Interactive Room Size Calculator) -->
+  <section id="room-planner" class="section-py">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Spatial Intelligence</span>
+        <h2 class="section-title">Room Dimension Guide & Calculator</h2>
+        <p class="section-subtitle">
+          Find the mathematically harmonious furniture scale for your home. Enter your room dimensions to see recommended clearances, seating capacities, and tailored Nordic Teak models.
+        </p>
+      </div>
+
+      <div class="room-planner-box reveal">
+        <div class="planner-layout">
+          <!-- Form Inputs -->
+          <div class="calculator-form-group">
+            <div>
+              <label style="font-size: 0.88rem; font-weight: 700; display: block; margin-bottom: 10px;">Select Room Space:</label>
+              <div class="room-type-buttons">
+                <button class="room-type-btn active" data-room="dining">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19v-4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v4"/><rect x="6" y="7" width="12" height="6" rx="2"/></svg>
+                  <span>Dining</span>
+                </button>
+                <button class="room-type-btn" data-room="living">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 9V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v3"/><rect x="2" y="11" width="20" height="10" rx="2"/></svg>
+                  <span>Living</span>
+                </button>
+                <button class="room-type-btn" data-room="bedroom">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M2 4v16"/><path d="M2 8h18a2 2 0 0 1 2 2v10"/><path d="M2 17h20"/><path d="M6 8v9"/></svg>
+                  <span>Bedroom</span>
+                </button>
+                <button class="room-type-btn" data-room="office">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 10h18"/><path d="M10 14h4"/></svg>
+                  <span>Office</span>
+                </button>
+              </div>
+            </div>
+
+            <div class="dimension-inputs-row">
+              <div class="dim-input-field">
+                <label for="roomLength">Room Length:</label>
+                <input type="number" id="roomLength" value="4.8" step="0.1" min="1.5" max="25" />
+              </div>
+              <div class="dim-input-field">
+                <label for="roomWidth">Room Width:</label>
+                <input type="number" id="roomWidth" value="3.8" step="0.1" min="1.5" max="25" />
+              </div>
+              <div class="dim-input-field">
+                <label for="roomUnit">Unit:</label>
+                <select id="roomUnit">
+                  <option value="m">Meters (m)</option>
+                  <option value="ft">Feet (ft)</option>
+                </select>
+              </div>
+            </div>
+
+            <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.5;">
+              Tip: Scandinavian architectural guidelines advise minimum 90cm walkways around main tables and 45cm coffee table clearances for comfortable circulation.
+            </p>
+          </div>
+
+          <!-- Dynamic Results Panel -->
+          <div class="planner-preview-card">
+            <!-- 2D Schematic Simulation -->
+            <div class="preview-diagram-box">
+              <div class="schematic-room" id="schematicRoom" style="width: 180px; height: 140px;">
+                <div class="schematic-furniture" id="schematicFurniture" style="width: 75%; height: 50%;">
+                  Dining Table Suite
+                </div>
+              </div>
+            </div>
+
+            <div class="recommendations-box">
+              <div class="rec-stat-badge">
+                <span>Calculated Floor Area:</span>
+                <strong id="calcAreaDisplay">18.2 m² (196 sq ft)</strong>
+              </div>
+              <div class="rec-stat-badge">
+                <span>Recommended Furniture Size:</span>
+                <strong id="calcRecFurniture">300cm × 100cm</strong>
+              </div>
+              <div class="rec-stat-badge">
+                <span>Circulation Clearance:</span>
+                <span id="calcClearanceText" style="font-size: 0.82rem; font-weight: 600; color: var(--text-main);">90cm walkway perimeter</span>
+              </div>
+              <div class="rec-stat-badge" style="background: var(--accent-soft);">
+                <span>Suggested Model:</span>
+                <strong id="calcPieceSuggest" style="color: var(--primary);">Oslo Trestle Table (8-10 Chairs)</strong>
+              </div>
+            </div>
+
+            <button class="btn btn-primary" id="applyPlannerToQuoteBtn" style="width: 100%;">
+              Transfer Specs to Quote Request
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Material Swatches Section -->
+  <section id="materials" class="section-py" style="background: var(--bg-surface-subtle);">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Noble Hardwoods</span>
+        <h2 class="section-title">Material Swatches & Timber Guide</h2>
+        <p class="section-subtitle">
+          We source solely responsibly harvested, kiln-dried hardwoods with extraordinary density, longevity, and tactile warmth. Select a timber to explore its characteristics.
+        </p>
+      </div>
+
+      <div class="materials-grid">
+        <!-- Swatch 1: Natural Teak -->
+        <div class="material-card reveal" data-wood="Natural Teak">
+          <div class="material-texture-preview">
+            <img src="https://images.unsplash.com/photo-1546484475-7f7bd55792da?auto=format&fit=crop&w=800&q=80" alt="Natural Teak Wood Grain" loading="lazy" />
+            <div class="material-swatch-circle" style="background: #A47551;"></div>
+          </div>
+          <div class="material-card-body">
+            <h3 class="material-name">Natural Golden Teak</h3>
+            <span class="material-color-tone">Tectona Grandis • Warm Honey Gold</span>
+            <div class="material-metrics-list">
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Natural Water & Weather Resistance</span>
+                  <span>10 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 100%;"></div></div>
+              </div>
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Janka Hardness (1,155 lbf)</span>
+                  <span>9 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 90%;"></div></div>
+              </div>
+            </div>
+            <div class="material-maintenance-tip">
+              <strong>Care:</strong> High natural oils preserve grain. Re-oil with Swedish botanical oil once annually for golden luster, or allow to weather into silver patina.
+            </div>
+          </div>
+        </div>
+
+        <!-- Swatch 2: Walnut -->
+        <div class="material-card reveal reveal-delay-1" data-wood="American Walnut">
+          <div class="material-texture-preview">
+            <img src="https://images.unsplash.com/photo-1588854337236-6889d631faa8?auto=format&fit=crop&w=800&q=80" alt="American Walnut Texture" loading="lazy" />
+            <div class="material-swatch-circle" style="background: #483525;"></div>
+          </div>
+          <div class="material-card-body">
+            <h3 class="material-name">American Black Walnut</h3>
+            <span class="material-color-tone">Juglans Nigra • Deep Chocolate & Mocha</span>
+            <div class="material-metrics-list">
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Dimensional Stability</span>
+                  <span>9.5 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 95%;"></div></div>
+              </div>
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Grain Drama & Figure</span>
+                  <span>10 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 100%;"></div></div>
+              </div>
+            </div>
+            <div class="material-maintenance-tip">
+              <strong>Care:</strong> Velvety touch requiring organic beeswax seal. Shields against direct sun fading with a deep lustrous sheen that enriches over generations.
+            </div>
+          </div>
+        </div>
+
+        <!-- Swatch 3: Nordic Oak -->
+        <div class="material-card reveal reveal-delay-2" data-wood="White Oak">
+          <div class="material-texture-preview">
+            <img src="https://images.unsplash.com/photo-1513694203232-719a280e022f?auto=format&fit=crop&w=800&q=80" alt="White Oak Wood Grain" loading="lazy" />
+            <div class="material-swatch-circle" style="background: #D8B68A;"></div>
+          </div>
+          <div class="material-card-body">
+            <h3 class="material-name">Nordic White Oak</h3>
+            <span class="material-color-tone">Quercus Alba • Pale Biscuit & Straw</span>
+            <div class="material-metrics-list">
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Impact & Wear Resistance</span>
+                  <span>9.2 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 92%;"></div></div>
+              </div>
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Minimalist Aesthetic Fit</span>
+                  <span>10 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 100%;"></div></div>
+              </div>
+            </div>
+            <div class="material-maintenance-tip">
+              <strong>Care:</strong> Finished with Scandinavian white-pigmented soap or matte oil. Prominent medullary ray flecks celebrate authentic raw timber simplicity.
+            </div>
+          </div>
+        </div>
+
+        <!-- Swatch 4: Rosewood -->
+        <div class="material-card reveal" data-wood="East Indian Rosewood">
+          <div class="material-texture-preview">
+            <img src="https://images.unsplash.com/photo-1533090161767-e6ffed986b88?auto=format&fit=crop&w=800&q=80" alt="Rosewood Texture" loading="lazy" />
+            <div class="material-swatch-circle" style="background: #502720;"></div>
+          </div>
+          <div class="material-card-body">
+            <h3 class="material-name">East Indian Rosewood</h3>
+            <span class="material-color-tone">Dalbergia Latifolia • Burgundy Purple Streaks</span>
+            <div class="material-metrics-list">
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Density & Acoustic Rigidity</span>
+                  <span>10 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 100%;"></div></div>
+              </div>
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Heirloom Rarity</span>
+                  <span>9.8 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 98%;"></div></div>
+              </div>
+            </div>
+            <div class="material-maintenance-tip">
+              <strong>Care:</strong> Heavy, fragrant timber with subtle sweet resinous notes. Needs only light buffing with dry microfiber and biennial pure paste wax.
+            </div>
+          </div>
+        </div>
+
+        <!-- Swatch 5: Mahogany -->
+        <div class="material-card reveal reveal-delay-1" data-wood="Honduran Mahogany">
+          <div class="material-texture-preview">
+            <img src="https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80" alt="Mahogany Texture" loading="lazy" />
+            <div class="material-swatch-circle" style="background: #733125;"></div>
+          </div>
+          <div class="material-card-body">
+            <h3 class="material-name">Sustainable Mahogany</h3>
+            <span class="material-color-tone">Swietenia Macrophylla • Reddish-Brown Luster</span>
+            <div class="material-metrics-list">
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Resistance to Swelling/Shrinkage</span>
+                  <span>9.7 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 97%;"></div></div>
+              </div>
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Joinery Stability</span>
+                  <span>9.4 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 94%;"></div></div>
+              </div>
+            </div>
+            <div class="material-maintenance-tip">
+              <strong>Care:</strong> Tight, interlocking grain that polishes to an exquisite optical depth. Finished in organic tung oil to protect against domestic spillages.
+            </div>
+          </div>
+        </div>
+
+        <!-- Swatch 6: Scandinavian Ash -->
+        <div class="material-card reveal reveal-delay-2" data-wood="Scandinavian Ash">
+          <div class="material-texture-preview">
+            <img src="https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?auto=format&fit=crop&w=800&q=80" alt="Scandinavian Ash Wood" loading="lazy" />
+            <div class="material-swatch-circle" style="background: #E8D8C3;"></div>
+          </div>
+          <div class="material-card-body">
+            <h3 class="material-name">Scandinavian Pale Ash</h3>
+            <span class="material-color-tone">Fraxinus Excelsior • Light Cream & Silver</span>
+            <div class="material-metrics-list">
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Flexibility & Steam-Bending</span>
+                  <span>10 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 100%;"></div></div>
+              </div>
+              <div class="metric-bar-wrap">
+                <div class="metric-header">
+                  <span>Shock Absorbency</span>
+                  <span>9.3 / 10</span>
+                </div>
+                <div class="metric-bar"><div class="metric-fill" style="width: 93%;"></div></div>
+              </div>
+            </div>
+            <div class="material-maintenance-tip">
+              <strong>Care:</strong> Clean Nordic lines with pronounced grain. Ideal for sculptural bentwood chairs and dining room seating.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us Section -->
+  <section class="section-py">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Heirloom Principles</span>
+        <h2 class="section-title">Why Nordic Teak Bespoke</h2>
+        <p class="section-subtitle">
+          Six foundational tenets that distinguish our workshop from mass production furniture manufacturers.
+        </p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature-box reveal">
+          <div class="feature-icon-wrapper">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+          </div>
+          <h3 class="feature-title">100% Solid Hardwood</h3>
+          <p class="feature-desc">Zero veneer overlays, zero particleboard, and zero MDF. Every leg, rail, top, and drawer front is carved from solid, living timber slabs.</p>
+        </div>
+
+        <div class="feature-box reveal reveal-delay-1">
+          <div class="feature-icon-wrapper">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/></svg>
+          </div>
+          <h3 class="feature-title">Handcrafted Joinery</h3>
+          <p class="feature-desc">Mortise and tenon, hand-chiseled dovetails, and wedged timber keys engineered to breathe with seasonal temperature and humidity changes.</p>
+        </div>
+
+        <div class="feature-box reveal reveal-delay-2">
+          <div class="feature-icon-wrapper">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+          </div>
+          <h3 class="feature-title">FSC-Certified Eco Ethics</h3>
+          <p class="feature-desc">Every plank is tracked from certified managed plantations or reclaimed architectural beams. Three saplings planted for every tree harvested.</p>
+        </div>
+
+        <div class="feature-box reveal">
+          <div class="feature-icon-wrapper">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg>
+          </div>
+          <h3 class="feature-title">Made-to-Order Custom Spec</h3>
+          <p class="feature-desc">Tailor table lengths down to the millimetre, specify chamfer angles, cable recesses, or customize wood finishes to your interior scheme.</p>
+        </div>
+
+        <div class="feature-box reveal reveal-delay-1">
+          <div class="feature-icon-wrapper">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m4.93 4.93 4.24 4.24"/><path d="m14.83 9.17 4.24-4.24"/><path d="m14.83 14.83 4.24 4.24"/><path d="m9.17 14.83-4.24 4.24"/></svg>
+          </div>
+          <h3 class="feature-title">Zero VOC Organic Finishes</h3>
+          <p class="feature-desc">Preserved with food-safe botanical plant oils, natural tree resins, and local beeswax. Gentle on touch and completely toxin-free.</p>
+        </div>
+
+        <div class="feature-box reveal reveal-delay-2">
+          <div class="feature-icon-wrapper">
+            <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 8v4l3 3"/><circle cx="12" cy="12" r="10"/></svg>
+          </div>
+          <h3 class="feature-title">Lifetime Support & Care</h3>
+          <p class="feature-desc">Includes our Heirloom Registry certificate, initial complimentary care kit, and lifetime consultation with our master wood restoration team.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quote Request Form Section -->
+  <section id="quote" class="section-py quote-section">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Bespoke Commissioning</span>
+        <h2 class="section-title">Request a Bespoke Quote</h2>
+        <p class="section-subtitle">
+          Share your space dimensions, preferred timber, and design wishes. Our master artisan team will review your specifications and calculate a formal crafting estimate.
+        </p>
+      </div>
+
+      <div class="quote-wrapper-card reveal">
+        <form id="quoteForm" novalidate>
+          <div class="form-grid-3">
+            <!-- Full Name -->
+            <div class="form-field">
+              <label class="form-label" for="quoteFullName">
+                <span>Full Name</span>
+                <span class="req">*</span>
+              </label>
+              <input type="text" id="quoteFullName" class="form-input" placeholder="e.g. Astrid Lindgren" required />
+              <span class="form-field-error">Name is required</span>
+            </div>
+
+            <!-- Email Address -->
+            <div class="form-field">
+              <label class="form-label" for="quoteEmail">
+                <span>Email Address</span>
+                <span class="req">*</span>
+              </label>
+              <input type="email" id="quoteEmail" class="form-input" placeholder="e.g. astrid@nordicdesign.com" required />
+              <span class="form-field-error">Valid email is required</span>
+            </div>
+
+            <!-- Phone Number -->
+            <div class="form-field">
+              <label class="form-label" for="quotePhone">
+                <span>Phone / WhatsApp</span>
+                <span class="req">*</span>
+              </label>
+              <input type="tel" id="quotePhone" class="form-input" placeholder="e.g. +45 33 12 88 40" required />
+              <span class="form-field-error">Phone number is required</span>
+            </div>
+
+            <!-- Furniture Type -->
+            <div class="form-field">
+              <label class="form-label" for="quoteFurnitureType">
+                <span>Furniture Category</span>
+                <span class="req">*</span>
+              </label>
+              <select id="quoteFurnitureType" class="form-select" required>
+                <option value="">Select Furniture Type...</option>
+                <option value="dining-table">Dining Table (Communal / Extendable)</option>
+                <option value="dining-suite">Complete Dining Suite (Table + Chairs)</option>
+                <option value="living-credenza">Slatted Credenza / Media Console</option>
+                <option value="living-sofa">Teak Sofa Frame / Lounge Chair</option>
+                <option value="bedroom-bed">Platform Bed / Floating Suite</option>
+                <option value="office-desk">Executive Writing Desk</option>
+                <option value="outdoor-terrace">Outdoor Marine Teak Dining</option>
+                <option value="custom-architectural">Architectural Custom Built-in</option>
+              </select>
+              <span class="form-field-error">Please select a category</span>
+            </div>
+
+            <!-- Material Preference -->
+            <div class="form-field">
+              <label class="form-label" for="quoteMaterial">
+                <span>Preferred Timber</span>
+                <span class="req">*</span>
+              </label>
+              <select id="quoteMaterial" class="form-select" required>
+                <option value="">Choose Timber Swatch...</option>
+                <option value="teak-golden">Natural Golden Teak (Signature Grade-A)</option>
+                <option value="walnut">American Black Walnut</option>
+                <option value="oak-nordic">Nordic White Oak</option>
+                <option value="rosewood">East Indian Rosewood</option>
+                <option value="mahogany">Sustainable Mahogany</option>
+                <option value="ash">Scandinavian Pale Ash</option>
+                <option value="reclaimed-century">Century Reclaimed Aged Teak</option>
+              </select>
+              <span class="form-field-error">Please select a timber</span>
+            </div>
+
+            <!-- Dimensions -->
+            <div class="form-field">
+              <label class="form-label" for="quoteDimensions">
+                <span>Target Dimensions</span>
+                <span class="req">*</span>
+              </label>
+              <input type="text" id="quoteDimensions" class="form-input" placeholder="e.g. 240cm L × 100cm W × 76cm H" required />
+              <span class="form-field-error">Dimensions required</span>
+            </div>
+
+            <!-- Budget Range -->
+            <div class="form-field">
+              <label class="form-label" for="quoteBudget">
+                <span>Estimated Budget</span>
+              </label>
+              <select id="quoteBudget" class="form-select">
+                <option value="$1,500 - $3,000">$1,500 - $3,000 USD</option>
+                <option value="$3,000 - $5,000" selected>$3,000 - $5,000 USD</option>
+                <option value="$5,000 - $10,000">$5,000 - $10,000 USD</option>
+                <option value="$10,000+">$10,000+ USD (Mastercraft Suite)</option>
+              </select>
+            </div>
+
+            <!-- Delivery City & Country -->
+            <div class="form-field">
+              <label class="form-label" for="quoteCity">
+                <span>Delivery City / Country</span>
+              </label>
+              <input type="text" id="quoteCity" class="form-input" placeholder="e.g. Copenhagen, London, New York" />
+            </div>
+
+            <!-- Finish Option -->
+            <div class="form-field">
+              <label class="form-label" for="quoteFinish">
+                <span>Surface Luster Finish</span>
+              </label>
+              <select id="quoteFinish" class="form-select">
+                <option value="matte-oil">Organic Matte Hardwax Oil</option>
+                <option value="satin-wax">Hand-Rubbed Satin Beeswax</option>
+                <option value="raw-touch">Raw Touch Scandinavian Soap</option>
+                <option value="gloss">Subtle Semi-Gloss Tung Oil</option>
+              </select>
+            </div>
+
+            <!-- Message / Custom Requirements -->
+            <div class="form-field form-col-full">
+              <label class="form-label" for="quoteMessage">
+                <span>Special Architectural Notes & Custom Requirements</span>
+              </label>
+              <textarea id="quoteMessage" class="form-textarea" placeholder="Detail any specific room characteristics, live-edge slab wishes, cable grommet cutouts, chair numbers, or installation delivery access..."></textarea>
+            </div>
+          </div>
+
+          <div style="margin-top: 32px; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 16px;">
+            <p style="font-size: 0.82rem; color: var(--text-muted); max-width: 480px;">
+              Frontend demo submission: Your configuration will generate a unique commissioning reference and interactive quote recap without contacting external servers.
+            </p>
+            <button type="submit" class="btn btn-primary btn-lg">
+              Generate Formal Quote
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Luxury Slider -->
+  <section id="testimonials" class="section-py">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Client Stories</span>
+        <h2 class="section-title">Enduring Testimonials</h2>
+        <p class="section-subtitle">
+          Acclaimed by private homeowners, interior architects, and boutique hotels across Scandinavia and worldwide.
+        </p>
+      </div>
+
+      <div class="testimonials-slider-box reveal">
+        <div class="testimonial-track" id="testimonialTrack">
+          <!-- Slide 1 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "The Oslo live-edge dining table transformed our Copenhagen penthouse. The depth of the mature teak grain, butterfly joint keys, and silken tactile finish are unmatched. It feels like an art sculpture we gather around daily."
+            </p>
+            <div class="testimonial-client">
+              <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80" alt="Freja Møller" class="client-avatar" />
+              <div class="client-meta">
+                <div class="client-name">Freja Møller</div>
+                <div class="client-role">Architectural Director, Copenhagen</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "Commissioning our Kobenhavn bedroom platform suite with bespoke cantilevered side tables was completely seamless. The precision joinery arrived in Aspen perfectly crated. Zero squeaks, purely solid heirloom teak."
+            </p>
+            <div class="testimonial-client">
+              <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=200&q=80" alt="Marcus Vance" class="client-avatar" />
+              <div class="client-meta">
+                <div class="client-name">Marcus Vance</div>
+                <div class="client-role">Chalet Owner, Aspen & London</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div class="testimonial-slide">
+            <div class="testimonial-stars">★★★★★</div>
+            <p class="testimonial-quote">
+              "As an interior designer, finding true solid wood furniture with zero chemical VOCs and millimetre customization is exceptionally rare. Nordic Teak's craftsmanship is the gold benchmark for Scandinavian modern luxury."
+            </p>
+            <div class="testimonial-client">
+              <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=200&q=80" alt="Elinor Dahl" class="client-avatar" />
+              <div class="client-meta">
+                <div class="client-name">Elinor Dahl</div>
+                <div class="client-role">Principal Designer, Studio Dahl Stockholm</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Controls -->
+        <div class="slider-controls">
+          <button class="slider-arrow-btn" id="prevTestimonialBtn" aria-label="Previous Testimonial">‹</button>
+          <div class="slider-dots">
+            <span class="slider-dot active"></span>
+            <span class="slider-dot"></span>
+            <span class="slider-dot"></span>
+          </div>
+          <button class="slider-arrow-btn" id="nextTestimonialBtn" aria-label="Next Testimonial">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery Section & Lightbox -->
+  <section id="gallery" class="section-py" style="background: var(--bg-surface-subtle);">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Architectural Installations</span>
+        <h2 class="section-title">Interior Sanctuary Gallery</h2>
+        <p class="section-subtitle">
+          A glimpse into residences and bespoke spaces enriched with Nordic Teak creations. Click any photograph to inspect the artisanal joinery in full resolution.
+        </p>
+      </div>
+
+      <div class="gallery-filters reveal">
+        <button class="filter-tab gallery-filter-btn active" data-cat="all">All Interiors</button>
+        <button class="filter-tab gallery-filter-btn" data-cat="living">Living Rooms</button>
+        <button class="filter-tab gallery-filter-btn" data-cat="dining">Dining Halls</button>
+        <button class="filter-tab gallery-filter-btn" data-cat="bedroom">Bedrooms</button>
+        <button class="filter-tab gallery-filter-btn" data-cat="office">Atelier Studies</button>
+      </div>
+
+      <div class="gallery-grid" id="galleryGrid">
+        <!-- Rendered dynamically by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- About Atelier Section -->
+  <section id="about" class="section-py">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-image-stack reveal">
+          <div class="about-img-main">
+            <img src="https://images.unsplash.com/photo-1540575467063-178a50c2df87?auto=format&fit=crop&w=1000&q=80" alt="Master craftsman working with teak wood in workshop" />
+          </div>
+          <div class="about-craft-card">
+            <div class="craft-badge-num">1984</div>
+            <div class="craft-badge-text">Four decades of traditional wood artistry rooted in Scandinavian design philosophy.</div>
+          </div>
+        </div>
+
+        <div class="about-content reveal reveal-delay-1">
+          <span class="section-label">Atelier Heritage</span>
+          <h2 class="section-title">The Art of Mindful Scandinavian Timber</h2>
+          <p style="color: var(--text-muted); font-size: 1.05rem; line-height: 1.7; margin-bottom: 20px;">
+            Founded with an unbending devotion to honest materials, Nordic Teak Bespoke balances the Danish concept of <em>hygge</em> and Swedish <em>lagom</em> with uncompromising timber craftsmanship.
+          </p>
+          <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.7; margin-bottom: 30px;">
+            We harvest solely mature teak trees seasoned in ambient drying kilns for over 180 days to attain sub-8% moisture equilibrium. Every curve is planed by hand; every joint is shaped to endure for generations without mechanical screws or artificial polymers.
+          </p>
+
+          <div class="about-metrics">
+            <div class="about-metric-card">
+              <div class="metric-num">28+</div>
+              <div class="metric-name">Master Cabinetmakers</div>
+            </div>
+            <div class="about-metric-card">
+              <div class="metric-num">450+</div>
+              <div class="metric-name">Bespoke Pieces / Year</div>
+            </div>
+            <div class="about-metric-card">
+              <div class="metric-num">100%</div>
+              <div class="metric-name">Sustainable Forestry</div>
+            </div>
+            <div class="about-metric-card">
+              <div class="metric-num">15 Yrs</div>
+              <div class="metric-name">Average Artisan Tenure</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section (Accordion) -->
+  <section id="faq" class="section-py" style="background: var(--bg-surface-subtle);">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Client Inquiries</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">
+          Everything you need to know about our custom sizing, wood seasoning, international delivery, and heirloom warranty.
+        </p>
+      </div>
+
+      <div class="faq-accordion-box reveal">
+        <!-- Item 1 -->
+        <div class="faq-item active">
+          <button class="faq-question-btn">
+            <span>Can I customize the exact dimensions of any furniture piece?</span>
+            <div class="faq-chevron">▼</div>
+          </button>
+          <div class="faq-answer-panel">
+            Yes, absolutely. Because every piece is made to order in our workshop, you can adjust length, width, height, leg clearances, and even cord weave patterns to match your room’s exact millimetre footprint.
+          </div>
+        </div>
+
+        <!-- Item 2 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>What is the typical crafting lead time for bespoke furniture?</span>
+            <div class="faq-chevron">▼</div>
+          </button>
+          <div class="faq-answer-panel">
+            Custom crafting normally takes 5 to 7 weeks from final specification approval. This includes timber acclimation, hand shaping, traditional joinery assembly, multi-coat natural oil curing, and dedicated white-glove packaging.
+          </div>
+        </div>
+
+        <!-- Item 3 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>How does solid teak perform in dry or humid climates?</span>
+            <div class="faq-chevron">▼</div>
+          </button>
+          <div class="faq-answer-panel">
+            Mature Grade-A teak possesses the highest natural oil and silica density of any furniture-grade hardwood. Our kiln-drying process stabilizes moisture content to 7-9%, ensuring stability against warpage whether placed in an air-conditioned city apartment or a seaside terrace.
+          </div>
+        </div>
+
+        <!-- Item 4 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>How do I maintain and care for the natural matte wood finish?</span>
+            <div class="faq-chevron">▼</div>
+          </button>
+          <div class="faq-answer-panel">
+            For daily cleaning, simply wipe with a slightly damp microfiber cloth. Every order includes our Nordic Wood Care Kit containing organic botanical oil and wax balm. Re-applying the oil once a year preserves the golden hue and water repellency.
+          </div>
+        </div>
+
+        <!-- Item 5 -->
+        <div class="faq-item">
+          <button class="faq-question-btn">
+            <span>Do you arrange international crating and insured freight?</span>
+            <div class="faq-chevron">▼</div>
+          </button>
+          <div class="faq-answer-panel">
+            Yes. We regularly ship custom dining tables and bedroom suites across Europe, North America, the Middle East, and Asia. All pieces are packed in custom museum-grade wooden crates and dispatched via insured air or sea freight with doorstep delivery.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-py">
+    <div class="container">
+      <div class="text-center reveal">
+        <span class="section-label">Connect With Our Studio</span>
+        <h2 class="section-title">Visit Our Atelier & Showroom</h2>
+        <p class="section-subtitle">
+          Schedule a private design consultation, inspect our timber slabs in person, or request material sample swatches sent to your address.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Info & Map Card -->
+        <div class="contact-info-card reveal">
+          <div class="contact-channel-item">
+            <div class="channel-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </div>
+            <div class="channel-text">
+              <h4>Atelier & Master Workshop</h4>
+              <p>Strandvejen 42, 2900 Hellerup<br>Copenhagen, Denmark</p>
+            </div>
+          </div>
+
+          <div class="contact-channel-item">
+            <div class="channel-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            </div>
+            <div class="channel-text">
+              <h4>Studio Direct Line</h4>
+              <p><a href="tel:+4533128840">+45 33 12 88 40</a> (Europe)<br><a href="tel:+18005558325">+1 (800) 555-TEAK</a> (International)</p>
+            </div>
+          </div>
+
+          <div class="contact-channel-item">
+            <div class="channel-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </div>
+            <div class="channel-text">
+              <h4>Email Inquiries</h4>
+              <p><a href="mailto:bespoke@nordicteak.com">bespoke@nordicteak.com</a><br><a href="mailto:architects@nordicteak.com">architects@nordicteak.com</a></p>
+            </div>
+          </div>
+
+          <div class="contact-channel-item">
+            <div class="channel-icon">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            </div>
+            <div class="channel-text">
+              <h4>Atelier Hours</h4>
+              <p>Monday - Friday: 09:00 - 18:00 CET<br>Saturday: By Private Appointment Only</p>
+            </div>
+          </div>
+
+          <!-- Stylized Workshop Location Card -->
+          <div class="atelier-map-container">
+            <div class="map-badge-overlay">
+              <strong>Copenhagen Waterfront Atelier</strong>
+              <span>Private appointments & Timber Selection</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Direct Consultation Form -->
+        <div class="contact-form-card reveal reveal-delay-1">
+          <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-bottom: 8px;">Schedule a Consultation</h3>
+          <p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 24px;">Send our interior team a note to book a video consultation or workshop tour.</p>
+          
+          <form id="contactForm">
+            <div class="form-field" style="margin-bottom: 16px;">
+              <label class="form-label" for="contactName">Your Name</label>
+              <input type="text" id="contactName" class="form-input" placeholder="e.g. Henrik Larsson" required />
+            </div>
+
+            <div class="form-field" style="margin-bottom: 16px;">
+              <label class="form-label" for="contactEmail">Email Address</label>
+              <input type="email" id="contactEmail" class="form-input" placeholder="e.g. henrik@architecture.com" required />
+            </div>
+
+            <div class="form-field" style="margin-bottom: 16px;">
+              <label class="form-label" for="contactSubject">Subject</label>
+              <select id="contactSubject" class="form-select">
+                <option value="showroom">Private Showroom Appointment</option>
+                <option value="trade">Trade & Architect Partnership</option>
+                <option value="samples">Request Timber Sample Box</option>
+                <option value="press">Press & Media Inquiry</option>
+              </select>
+            </div>
+
+            <div class="form-field" style="margin-bottom: 24px;">
+              <label class="form-label" for="contactMessage">Inquiry Details</label>
+              <textarea id="contactMessage" class="form-textarea" placeholder="How can our workshop assist your project?" required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Studio Inquiry</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       DEVELOPER CREDIT SECTION (Required High-End Showcase)
+       ========================================================================= -->
+  <section class="developer-credit-section">
+    <div class="dev-glow-blob"></div>
+    <div class="container dev-credit-inner reveal">
+      <div class="dev-avatar-box">👨‍💻</div>
+      <div class="dev-title-tag">Creator & Engineering Showcase</div>
+      <h2 class="dev-lead-heading">Designed & Developed by Mohammad Ashif 💙</h2>
+      <div class="dev-lead-sub">Ashif Web Studio</div>
+
+      <!-- Professional Badges -->
+      <div class="dev-badges-grid">
+        <div class="dev-badge-item">
+          <span class="dev-badge-check">✔</span>
+          <span>Frontend Demo Project</span>
+        </div>
+        <div class="dev-badge-item">
+          <span class="dev-badge-check">✔</span>
+          <span>HTML5 • CSS3 • JavaScript ES6</span>
+        </div>
+        <div class="dev-badge-item">
+          <span class="dev-badge-check">✔</span>
+          <span>No Framework</span>
+        </div>
+        <div class="dev-badge-item">
+          <span class="dev-badge-check">✔</span>
+          <span>Deployable on Vercel</span>
+        </div>
+        <div class="dev-badge-item">
+          <span class="dev-badge-check">✔</span>
+          <span>Developed by Ashif Web Studio</span>
+        </div>
+      </div>
+
+      <!-- Action Buttons -->
+      <div class="dev-actions-row">
+        <a href="https://ashif-web-studio.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-dev-portfolio">
+          Visit Portfolio
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>
+        </a>
+        <a href="https://ashif-web-studio.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn btn-dev-hire">
+          Hire Me
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Fictional Brand Disclaimer Bar -->
+  <aside class="disclaimer-bar">
+    <div class="container">
+      <p>
+        <strong>Disclaimer:</strong> This website is a fictional furniture brand frontend demonstration created for educational, portfolio, and showcase purposes only. Products, prices, dimensions, materials, and quote requests are sample content only. No real orders or transactions are processed.
+      </p>
+    </div>
+  </aside>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <!-- Brand Info -->
+        <div class="footer-brand">
+          <div class="brand-logo">
+            <div class="logo-symbol">NT</div>
+            <div class="brand-title">
+              <span class="brand-name">NORDIC TEAK</span>
+              <span class="brand-tagline">Bespoke Living</span>
+            </div>
+          </div>
+          <p>
+            Handcrafted wooden furniture designed for modern living. Scandinavian minimalism, sustainable noble timbers, and heirloom mortise & tenon joinery.
+          </p>
+          <div class="footer-socials">
+            <a href="#" class="social-link" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Pinterest">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="4" x2="12" y2="20"/><path d="M18.36 6.64a9 9 0 1 1-12.73 0"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="LinkedIn">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </a>
+            <a href="#" class="social-link" aria-label="Behance">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="m10 15 5-3-5-3v6z"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#collections">Featured Collections</a>
+            <a href="#products">Product Showcase</a>
+            <a href="#materials">Material Swatches</a>
+            <a href="#room-planner">Room Planner Tool</a>
+            <a href="#gallery">Interior Gallery</a>
+            <a href="#quote">Request Custom Quote</a>
+          </div>
+        </div>
+
+        <!-- Collections -->
+        <div class="footer-col">
+          <h4>Series</h4>
+          <div class="footer-links">
+            <a href="#collections">Sanctuary Living</a>
+            <a href="#collections">Kobenhavn Bedroom</a>
+            <a href="#collections">Nordic Banquet Dining</a>
+            <a href="#collections">Aarhus Executive Desk</a>
+            <a href="#collections">Fjord Outdoor Teak</a>
+            <a href="#collections">Century Mastercraft</a>
+            <a href="#faq">Wood Care Guide</a>
+          </div>
+        </div>
+
+        <!-- Newsletter & Studio -->
+        <div class="footer-col">
+          <h4>Atelier Lookbook</h4>
+          <p style="font-size: 0.88rem; color: var(--text-muted); line-height: 1.6;">
+            Subscribe to receive our seasonal bespoke lookbook, wood grain features, and architectural project previews.
+          </p>
+          <form class="newsletter-form" id="newsletterForm">
+            <input type="email" placeholder="Your email address" required aria-label="Email for Newsletter" />
+            <button type="submit" class="btn btn-primary btn-sm">Join</button>
+          </form>
+          <div style="font-size: 0.78rem; color: var(--text-light); margin-top: 10px;">
+            Zero spam. Unsubscribe at any time.
+          </div>
+        </div>
+      </div>
+
+      <!-- Copyright Bottom Bar -->
+      <div class="footer-bottom">
+        <div>
+          © 2026 Nordic Teak Bespoke Furniture. All Rights Reserved.
+        </div>
+        <div>
+          Designed &amp; Developed by <strong>Mohammad Ashif 💙</strong> | 
+          <a href="https://ashif-web-studio.vercel.app/" target="_blank" rel="noopener noreferrer">Ashif Web Studio</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Quick Action Buttons Dock -->
+  <div class="floating-actions-dock">
+    <!-- WhatsApp Floating Action -->
+    <a href="https://wa.me/4533128840" target="_blank" rel="noopener noreferrer" class="floating-btn floating-btn-whatsapp" title="WhatsApp Atelier" aria-label="WhatsApp Studio">
+      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+    </a>
+
+    <!-- Phone Call Floating Action -->
+    <a href="tel:+4533128840" class="floating-btn floating-btn-phone" title="Call Studio" aria-label="Call Workshop">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    </a>
+
+    <!-- Back to Top Smooth Scroll Button -->
+    <button class="back-to-top-btn" id="backToTopBtn" aria-label="Back to Top" title="Scroll to top">
+      <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="18 15 12 9 6 15"/></svg>
+    </button>
+  </div>
+
+  <!-- Quick View Product Modal -->
+  <div class="modal-overlay" id="quickViewModal" role="dialog" aria-modal="true" aria-label="Product Quick View">
+    <div class="modal-dialog">
+      <button class="modal-close-btn" aria-label="Close modal">✕</button>
+      <div id="quickViewContent">
+        <!-- Rendered by script.js -->
+      </div>
+    </div>
+  </div>
+
+  <!-- Quote Request Success Confirmation Modal -->
+  <div class="modal-overlay" id="quoteSuccessModal" role="dialog" aria-modal="true" aria-label="Quote Request Confirmation">
+    <div class="modal-dialog" style="max-width: 580px; text-align: center;">
+      <button class="modal-close-btn" aria-label="Close modal">✕</button>
+      <div style="width: 64px; height: 64px; border-radius: 50%; background: #E8F9EE; color: #55D688; display: flex; align-items: center; justify-content: center; margin: 0 auto 20px auto;">
+        <svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+      </div>
+      <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 8px;">Bespoke Quote Recorded</h3>
+      <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 20px;">
+        Your custom furniture commission specifications have been processed by our estimation engine.
+      </p>
+
+      <div style="padding: 10px 18px; background: var(--accent-soft); border-radius: var(--radius-sm); display: inline-block; font-weight: 700; color: var(--primary); font-size: 1.1rem; letter-spacing: 1px; margin-bottom: 24px;">
+        Reference: <span id="quoteRefId">NT-2026-8941</span>
+      </div>
+
+      <div id="quoteSummaryContent" style="margin-bottom: 26px; text-align: left;">
+        <!-- Dynamic recap -->
+      </div>
+
+      <button class="btn btn-primary" onclick="window.print()" style="margin-right: 10px;">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        Print / Save Specification
+      </button>
+      <button class="btn btn-secondary modal-close-btn-bottom" onclick="document.getElementById('quoteSuccessModal').classList.remove('active'); document.body.style.overflow='';" style="padding: 14px 24px;">
+        Done
+      </button>
+    </div>
+  </div>
+
+  <!-- Fullscreen Gallery Lightbox Modal -->
+  <div class="modal-overlay" id="lightboxModal" role="dialog" aria-modal="true" aria-label="Interior Gallery View">
+    <div class="lightbox-dialog">
+      <button class="modal-close-btn" style="position: fixed; top: 30px; right: 30px; background: rgba(255,255,255,0.2); color: #fff; border: none;" aria-label="Close lightbox">✕</button>
+      <img id="lightboxImg" src="" alt="Enlarged Interior Showcase" />
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- Catalog Download / Preview Modal -->
+  <div class="modal-overlay" id="catalogModal" role="dialog" aria-modal="true" aria-label="Catalog Lookbook Preview">
+    <div class="modal-dialog" style="max-width: 650px; text-align: center;">
+      <button class="modal-close-btn" aria-label="Close modal">✕</button>
+      <span class="section-label" style="margin-bottom: 12px;">2026 Edition</span>
+      <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 12px;">Nordic Teak Master Lookbook</h3>
+      <p style="color: var(--text-muted); font-size: 0.95rem; line-height: 1.6; margin-bottom: 24px;">
+        A 76-page bound monograph exploring our sustainable plantation teak harvest, Danish cord weaving techniques, and full dimensional joinery specifications.
+      </p>
+      <div style="border-radius: var(--radius-md); overflow: hidden; margin-bottom: 24px; border: 1px solid var(--border-light); max-height: 260px;">
+        <img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=80" alt="Lookbook Cover" style="width: 100%; height: 100%; object-fit: cover;" />
+      </div>
+      <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
+        <a href="#quote" class="btn btn-primary" onclick="document.getElementById('catalogModal').classList.remove('active'); document.body.style.overflow='';">
+          Request Print Edition
+        </a>
+        <button class="btn btn-secondary" onclick="alert('Digital Lookbook PDF download initiated (Demo).'); document.getElementById('catalogModal').classList.remove('active'); document.body.style.overflow='';">
+          Download PDF Preview (42 MB)
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pure Vanilla ES6 JavaScript -->
+  <script src="./script.js" defer></script>
+
+  <!-- Connect Catalog Modal Button -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var viewCatalogBtn = document.getElementById('viewCatalogBtn');
+      var catalogModal = document.getElementById('catalogModal');
+      if (viewCatalogBtn && catalogModal) {
+        viewCatalogBtn.addEventListener('click', function() {
+          catalogModal.classList.add('active');
+          document.body.style.overflow = 'hidden';
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

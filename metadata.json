@@ -1,0 +1,6 @@
+{
+  "name": "Nordic Teak Bespoke Furniture",
+  "description": "Handcrafted wooden furniture designed for modern living. Scandinavian minimalism, bespoke teak & hardwood craftsmanship, interactive room planner, and custom quotes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
